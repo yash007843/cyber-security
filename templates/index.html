@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BullyShield - Toxicity Prediction</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="left-container">
+        <h1>BullyShield</h1>
+        <h2>Your Personal Bully Detection Assistant</h2>
+        <p>
+            BullyShield is a website designed to identify toxic and harmful comments online. 
+            It helps in filtering out inappropriate content to create a safer online space for everyone. 
+            By using advanced AI algorithms, it detects toxic behavior in text and helps users stay protected.
+            Stay positive 🌟, stay safe 💪, and protect your mental health 💖!
+        </p>
+    </div>
+    <div class="line"></div>
+    <div class="right-container">
+        <div class="container">
+            <h1>Toxicity Prediction</h1>
+            <div class="image-container">
+                <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHdrZ2c2NG82Y2s2Ynh6ZjlkY3RiZm5tczZicTVzbmgyMGI4eXJlNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l46Cy1rHbQ92uuLXa/giphy.gif" alt="Prediction Gif" class="prediction-gif">
+            </div>
+            <form id="predictForm">
+                <textarea id="textInput" placeholder="Type a comment here..." required></textarea>
+                <button type="submit">Predict</button>
+            </form>
+            <div id="predictionResult">
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
