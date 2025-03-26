@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BullyShield - Feedback</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>BULLYSHIELD</h1>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger Icon -->
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/feedback">Feedback</a></li>
+            <li><a href="/try">Try Now</a></li>
+        </ul>
+    </nav>
+
+    <section class="feedback-container">
+        <h2>We Value Your Feedback</h2>
+        <div class="feedback-main">
+            <img src="../static/images/feedback.webp" alt="Feedback GIF">
+            <textarea id="feedbackInput" placeholder="Share your experience..."></textarea>
+        </div>
+
+        <button id="submitFeedback" onclick="fbSubmit()">Submit</button>
+        <p id="feedbackMessage"></p>
+    </section>
+
+    <script src="../static/js/script.js"></script>
+
+</body>
+
+</html>

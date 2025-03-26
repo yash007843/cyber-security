@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BullyShield - Try</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>BULLYSHIELD</h1>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger Icon -->
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/feedback">Feedback</a></li>
+            <li><a href="/try">Try Now</a></li>
+        </ul>
+    </nav>
+
+    <section class="try-container">
+        <h2>Enter a Comment to Check for Toxicity</h2>
+        <div class="try-input">
+            <img src="../static/images/chat.gif" alt="Chat Illustration"
+                class="try-img">
+            <textarea id="textInput" placeholder="Type a comment here..."></textarea>
+        </div>
+        <button id="predictBtn">Predict</button>
+        <p id="result">hell</p>
+    </section>
+
+    <script src="../static/js/script.js"></script>
+</body>
+
+</html>

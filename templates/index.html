@@ -1,40 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BullyShield - Toxicity Prediction</title>
+    <title>BullyShield - Home</title>
     <link rel="stylesheet" href="../static/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="left-container">
-        <h1>BullyShield</h1>
-        <h2>Your Personal Bully Detection Assistant</h2>
-        <p>
-            BullyShield is a website designed to identify toxic and harmful comments online. 
-            It helps in filtering out inappropriate content to create a safer online space for everyone. 
-            By using advanced AI algorithms, it detects toxic behavior in text and helps users stay protected.
-            Stay positive 🌟, stay safe 💪, and protect your mental health 💖!
-        </p>
-    </div>
-    <div class="line"></div>
-    <div class="right-container">
-        <div class="container">
-            <h1>Toxicity Prediction</h1>
-            <div class="image-container">
-                <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHdrZ2c2NG82Y2s2Ynh6ZjlkY3RiZm5tczZicTVzbmgyMGI4eXJlNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l46Cy1rHbQ92uuLXa/giphy.gif" alt="Prediction Gif" class="prediction-gif">
+    <nav>
+        <h1>BULLYSHIELD</h1>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger Icon -->
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/feedback">Feedback</a></li>
+            <li><a href="/try">Try Now</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Protect Yourself from Online Bullying</h2>
+            <p>AI-powered comment filtering for a safer online experience.</p>
+            <a href="/try" class="cta-button">Try Now</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-content">
+            <div class="text">
+                <h2>About BullyShield</h2>
+                <p>
+                    BullyShield is an AI-powered tool designed to detect and filter out toxic comments, ensuring a safer
+                    and more positive online environment. Our advanced AI technology helps protect users from
+                    cyberbullying, fostering a more inclusive digital space.
+                </p>
             </div>
-            <form id="predictForm">
-                <textarea id="textInput" placeholder="Type a comment here..." required></textarea>
-                <button type="submit">Predict</button>
-            </form>
-            <div id="predictionResult">
-                <p id="result"></p>
+            <div class="image">
+                <img src="../static/images/Search.webp" alt="Protection GIF">
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="features">
+        <h2>Key Features</h2>
+        <div class="feature-grid">
+            <div class="cube">
+                <div class="cube-inner">
+                    <div class="cube-face cube-front">
+                        <img src="../static/images/AI detect.jpeg"
+                            alt="AI Detection">
+                        <h3>AI-Based Detection</h3>
+                    </div>
+                    <div class="cube-face cube-back">
+                        <p>Uses advanced machine learning to detect toxic comments.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cube">
+                <div class="cube-inner">
+                    <div class="cube-face cube-front">
+                        <img src="../static/images/privacy-policy.jpg" alt="Security">
+                        <h3>Privacy & Security</h3>
+                    </div>
+                    <div class="cube-face cube-back">
+                        <p>Ensures your data is secure while filtering content.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cube">
+                <div class="cube-inner">
+                    <div class="cube-face cube-front">
+                        <img src="../static/images/easy-to-use.jpg" alt="Easy to Use">
+                        <h3>Easy to Use</h3>
+                    </div>
+                    <div class="cube-face cube-back">
+                        <p>Simple and fast comment filtering with instant results.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 BullyShield. All Rights Reserved.</p>
+            <ul class="footer-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/try">Try Now</a></li>
+                <li><a href="/feedback">Feedback</a></li>
+                <li><a href="mailto:cyberbullying134@gmail.com">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
 
     <script src="../static/js/script.js"></script>
+
 </body>
+
 </html>
