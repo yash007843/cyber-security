@@ -1,4 +1,4 @@
-document.getElementById('predictForm').addEventListener('submit', function (event) {
+document.getElementById('predictBtn').addEventListener('click', function (event) {
     event.preventDefault();
 
     const textInput = document.getElementById('textInput').value;
